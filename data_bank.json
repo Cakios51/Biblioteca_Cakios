@@ -1,0 +1,84 @@
+[
+  {
+    "title": "O cortiço",
+    "author": "Aluísio de Azevedo",
+    "genre": [
+      "Romance",
+      "Literatura do naturalismo",
+      "Ficção"
+    ],
+    "image": "img/o_cortiço.jpg",
+    "link": "paginas/o_cortiço.html"
+  },
+  {
+    "title": "Persuasão",
+    "author": "Jane Austen",
+    "genre": [
+      "Romance"
+    ],
+    "image": "img/persuasao.jpg",
+    "link": "paginas/persuasao.html"
+  },
+  {
+    "title": "Odisseia",
+    "author": "Homero",
+    "genre":[
+      "Poesia épica",
+      "Épico"
+    ],
+    "image": "img/odisseia.jpg",
+    "link": "paginas/odisseia.html"
+  },
+  {
+    "title": "Em chamas",
+    "author": "Collins",
+    "genre":[
+      "Ação",
+      "Aventura",
+      "Ficção Científica",
+      "Suspense"
+    ],
+    "image": "img/em_chamas.jpg",
+    "link": "paginas/em_chamas.html"
+  },
+  {
+    "title": "A menina que roubava livros",
+    "author": "Markus Zusak",
+    "genre":[
+      "Romance",
+      "Ficção juvenil",
+      "Ficção histórica",
+      "Romance de formação"
+    ],
+    "image": "img/a_menina_que_roubava_livros.jpg",
+    "link": "paginas/a_menina_que_roubava_livros.html"
+  },
+  {
+    "title": "Eu sou Malala",
+    "author": "Malala Yousafzai",
+    "genre":[
+      "Biografia"
+    ],
+    "image": "img/eu_sou_malala.jpg",
+    "link": "paginas/eu_sou_malala.html"
+  },
+  {
+    "title": "O mundo de sofia",
+    "author": "Jostein Gaarder",
+    "genre":[
+      "Romance",
+      "Filosofia"
+    ],
+    "image": "img/o_mundo_de_sofia.jpg",
+    "link": "paginas/o_mundo_de_sofia.html"
+  },
+  {
+    "title": "Emma",
+    "author": "Jane Austen",
+    "genre":[
+      "Romance"
+    ],
+    "image": "img/emma.jpg",
+    "link": "paginas/emma.html"
+  }
+]

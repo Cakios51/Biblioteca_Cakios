@@ -1,0 +1,78 @@
+/*Estilo simples do cabeçario*/
+header {
+	margin: -10px -10px -10px -10px;
+	background-color: rgb(40, 237, 184);
+	overflow: hidden;
+	border-style: solid;
+	border-color: rgb(34, 207, 161);
+}
+/*Estilo da imagem principal*/
+.navigation img {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+/*Estilo dos links*/
+.navigation a {
+	float: left;
+	text-align: center;
+	display: block;
+	padding: 20px 30px;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+.navigation a:hover {
+	background-color: rgb(34, 207, 161);
+	color: black;
+}
+.navigation a.active{
+	background-color:  rgb(41, 163, 41);
+	color: black;
+}
+/*Estilo da search bar*/
+.navigation input{
+	float: right;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	border: none;
+}
+
+.navigation .input_search_submit{
+	float: right;
+}
+/*Estilo do conteúdo principal e único da página*/
+.main{
+	margin-left: 12%;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+.main img{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.main a{
+	background-color: rgb(34, 205, 200);
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: rgb(31, 31, 31);
+}
+
+.main .title{
+	font-family: monospace;
+	font-size: 30px;
+}
+.main p{
+	font-size: 150%;
+	font-family: monospace;
+}
+/*Estilo do texto de resenha*/
+.review .resenha{
+	font-size: 22px;
+	clear: left;
+	margin-left: 12%;
+	margin-right: 300px;
+}
