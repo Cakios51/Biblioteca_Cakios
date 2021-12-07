@@ -1,5 +1,4 @@
 const header = document.querySelector("header");
-console.log(header);
 
 // Criando div:
 const div_nav = document.createElement("div");
@@ -38,7 +37,7 @@ div_nav.appendChild(a_autores);
 
 const input_search = document.createElement("input");
 input_search.setAttribute("type", "text");
-input_search.setAttribute("class", "search_bar");
+input_search.setAttribute("id", "search_bar_header");
 input_search.setAttribute("placeholder", "Search...");
 
 const submit_search_header = document.createElement("input");

@@ -1,9 +1,9 @@
 // Resposta search:
-const R_search = document.getElementById("input_search_bar");
-const submit_search = document.querySelector(".input_search_submit");
+const R_search = document.getElementById("search_bar_header");
+const submit_search = document.querySelector(".submit_search_header");
 
 // Processo de "GET" o json
-var requestJSON = 'https://raw.githubusercontent.com/caio-henrique2006/Cakios-book-list/main/data_bank.json';
+var requestJSON = 'https://raw.githubusercontent.com/Cakios51/Biblioteca_Cakios/main/data_bank.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestJSON);
 
@@ -42,7 +42,7 @@ function print_result(estante, i, div){
 	image.setAttribute("src", estante[i].image);
 	image.setAttribute("class", "class_img");
 	p_title.setAttribute("class", "class_title");
-	p_title.setAttribute("href", "#");
+	p_title.setAttribute("href", estante[i].link);
 	p_author.setAttribute("class", "class_author");
 	p_author.setAttribute("href", "#");
 }

@@ -41,11 +41,14 @@ input_search.setAttribute("type", "text");
 input_search.setAttribute("class", "search_bar");
 input_search.setAttribute("placeholder", "Search...");
 
+const submit_link = document.createElement("a");
 const submit_search_header = document.createElement("input");
+submit_link.setAttribute("href", "/home/macacaio/Biblioteca_Cakios/searchPage.html");
 submit_search_header.setAttribute("type", "submit");
 submit_search_header.setAttribute("class", "submit_search_header");
 submit_search_header.setAttribute("value", ">");
 
-div_nav.appendChild(submit_search_header);
+submit_link.appendChild(submit_search_header);
+div_nav.appendChild(submit_link);
 div_nav.appendChild(input_search);
 
