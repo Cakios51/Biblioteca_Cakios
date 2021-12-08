@@ -1,4 +1,5 @@
 const header = document.querySelector("header");
+console.log(header);
 
 // Criando div:
 const div_nav = document.createElement("div");

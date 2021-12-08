@@ -49,6 +49,7 @@ function print_result(estante, i, div){
 
 function books(estante){
 
+	// Executa quando o botão ">" é clicado
 	submit_search.onclick = function(){
 
 		// Guarda o valor da pesquisa;
@@ -64,7 +65,7 @@ function books(estante){
 		div_result.appendChild(div);
 		div.setAttribute("class", "main_div");
 
-
+		// Avisa caso a pesquisa tiver menos de 3 caracteres;
 		if(search.length <= 2){
 			const warning = document.createElement("p");
 			warning.appendChild(document.createTextNode("Digite, pelo menos, 3 caracteres !!!"));
